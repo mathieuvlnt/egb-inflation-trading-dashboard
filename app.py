@@ -25,7 +25,7 @@ from fixed_income import (Curve, bootstrap_annual_par, bond_cashflows,
     yield_price, solve_z_spread, irs_annual, ois_annual,
     par_asset_swap_annual, zcis_settlement, zcis_mark_to_market)
 
-st.set_page_config(page_title='EGB & Inflation Trading | HSBC Desk Case Study', page_icon='◈', layout='wide')
+st.set_page_config(page_title='EGB & Inflation Trading | HSBC Desk Case Study', page_icon='◈', layout='wide', initial_sidebar_state='expanded')
 px.defaults.color_discrete_sequence=['#DB0011','#343B48','#A4555A','#69788B','#C98A43','#628577']
 st.markdown('''<style>
 :root {--desk-red:#DB0011;--desk-ink:#202124;--desk-gray:#F5F6F8;--desk-border:#E2E4E8}
